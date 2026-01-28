@@ -1,7 +1,7 @@
 const Home = ()=>{
     return(
         <>
-        <section className="bg-dark min-vh-100 d-flex align-items-center">
+        <section className="bg-dark min-vh-100 d-flex align-items-center" id="home">
         <div className="container mt-5">
             <div className="row">
                 <div className="col text-center text-white">

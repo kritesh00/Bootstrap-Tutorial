@@ -1,6 +1,6 @@
 const Cards = (props) => {
   return (
-    <div className="col-md-4 ">
+    <div className="col-md-4 mb-4 cursor-pointer hover:scale-105 transition-transform">
       <div className="card p-3 shadow bg-dark text-white ">
         <img src={props.projectImage} className="w-100 mb-3" alt="" />
         <div className="card-body p-0">
