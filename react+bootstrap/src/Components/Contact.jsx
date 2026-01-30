@@ -1,7 +1,9 @@
+
 const Contact = ()=>{
     return(
         <>
-        <form className="bg-dark text-white p-5 d-flex flex-column gap-3 align-items-center  ">
+        <h1 className="text-white text-center" id="contact">Contact Me</h1>
+        <form className=" text-white p-5 d-flex flex-column gap-3 align-items-center  ">
   <div className="row w-100 g-3">
     <div className="col-md-6">
       <label htmlFor="inputEmail4" className="form-label">Email</label>

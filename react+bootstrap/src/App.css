@@ -1,0 +1,45 @@
+.bg-pink{
+    background-color: #ff4081;
+}
+
+.bg-red-200{
+    background-color: #ff5252;
+}
+
+.h-screen{
+    height: 100vh;
+}
+
+.card:hover{
+    transform:  scale(1.05);
+    transition: transform 0.3s ease-in-out;
+
+    cursor: pointer;
+    border: 2px solid white;
+    
+    opacity: 0.7;
+}
+
+
+.text-gradient-animate {
+  background: linear-gradient(90deg, #ff4081, #ff5252, #ff4081);
+  background-size: 200% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  animation: bsTextGradient 3s linear infinite;
+}
+
+
+@keyframes bsTextGradient {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: 200% center;
+  }
+}
