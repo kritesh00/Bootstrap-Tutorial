@@ -4,14 +4,15 @@ const Contact = ()=>{
         <>
         <h1 className="text-white text-center" id="contact">Contact Me</h1>
         <form className=" text-white p-5 d-flex flex-column gap-3 align-items-center  ">
-  <div className="row w-100 g-3">
-    <div className="col-md-6">
+  <div className="row  g-3">
+    <div className="col-12">
       <label htmlFor="inputEmail4" className="form-label">Email</label>
       <input
         type="email"
         className="form-control"
         id="inputEmail4"
         placeholder="Email"
+       
       />
     </div>
 
@@ -58,6 +59,7 @@ const Contact = ()=>{
       <input type="text" className="form-control" id="inputZip" />
     </div>
   </div>
+  <button type="submit" className="w-100 btn btn-primary mt-3 d-flex justify-content-center align-items-center">Submit</button>
 </form>
 
         </>

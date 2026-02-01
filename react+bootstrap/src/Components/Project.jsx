@@ -25,6 +25,7 @@ const Project = () => {
     />
 
   </div>
+  <a href="https://google.com" className="btn btn-primary mt-4 d-flex justify-content-center align-items-center">View All Projects</a>
 </section>
 
     </>)
